@@ -1,0 +1,48 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+background: linear-gradient(to bottom, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.location,
+.air-quality{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:  space-around;
+    
+}
+.air-quality{
+    flex-direction: column;
+}
+.index{
+    display: flex;
+    align-items: center
+}
+.index span{
+    margin: 10px;
+    font-size: 30px
+}
+#station{
+    width: 1500px;
+    text-align: center;
+}
+#aqi{
+    
+    font-size: 40px;
+}
